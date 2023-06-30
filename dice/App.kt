@@ -67,7 +67,6 @@ fun DrawScope.centerRight() {
   }
 }
 
-@Composable
 fun DrawScope.bullet(number: Int) {
   when (number) {
     1 -> {
